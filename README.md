@@ -23,6 +23,19 @@ We use a structured approach to manage our development workflow. Below is an ove
   - It serves as a reference for the early stages of the project.
   - No active development occurs in this branch.
 
+### Commit Message
+- **Types of commits:**
+     - `feat:` → Adding a new feature (e.g., `feat: add contact form`)
+     - `fix:` → Fixing a bug (e.g., `fix: resolve navbar alignment issue`)
+     - `change:` → Making general changes (e.g., `change: update footer styles`)
+     - `docs:` → Updating documentation (e.g., `docs: update contributing guide`)
+     - `style:` → Formatting, missing semicolons, etc. (e.g., `style: fix indentation in CSS`)
+     - `chore:` → Maintenance tasks (e.g., `chore: update dependencies`)
+
+   - Example commit:
+     ```sh
+     git commit -m "feat: add dark mode toggle"
+     ```
 ### How to Contribute
 
 1. **Make Changes Directly in `development`**
